@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE1F8EEC-6B35-402F-A1B6-F96D9B83E54C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HW8__Personal_Website</RootNamespace>
+    <AssemblyName>HW8- Personal Website</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="assets\.vs\slnx.sqlite" />
+    <None Include="assets\vendor\bootstrap-icons\bootstrap-icons.json" />
+    <None Include="assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
+    <None Include="assets\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.rtl.css.map" />
+    <None Include="assets\vendor\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.esm.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.esm.min.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.js.map" />
+    <None Include="assets\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="assets\vendor\typed.js\typed.min.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\imgs\anotherPicOFMe.jpg" />
+    <Content Include="assets\imgs\MainPicOFMe.jpg" />
+    <Content Include="assets\imgs\nerdyPicOFMe.jpg" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\vendor\bootstrap-icons\bootstrap-icons.css" />
+    <Content Include="assets\vendor\bootstrap-icons\index.html" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="assets\vendor\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="assets\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\vendor\glightbox\css\glightbox.css" />
+    <Content Include="assets\vendor\glightbox\css\glightbox.min.css" />
+    <Content Include="assets\vendor\glightbox\js\glightbox.js" />
+    <Content Include="assets\vendor\glightbox\js\glightbox.min.js" />
+    <Content Include="assets\vendor\php-email-form\validate.js" />
+    <Content Include="assets\vendor\purecounter\purecounter.js" />
+    <Content Include="assets\vendor\swiper\swiper-bundle.min.css" />
+    <Content Include="assets\vendor\swiper\swiper-bundle.min.js" />
+    <Content Include="assets\vendor\typed.js\typed.js" />
+    <Content Include="assets\vendor\typed.js\typed.min.js" />
+    <Content Include="HTMLPage1.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
