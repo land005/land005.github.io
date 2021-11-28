@@ -102,7 +102,7 @@
     <Content Include="assets\vendor\swiper\swiper-bundle.min.js" />
     <Content Include="assets\vendor\typed.js\typed.js" />
     <Content Include="assets\vendor\typed.js\typed.min.js" />
-    <Content Include="HTMLPage1.html" />
+    <Content Include="index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
